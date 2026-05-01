@@ -1,0 +1,9 @@
+[project]
+name = "gamemaster-ai"
+version = "0.1.0"
+description = "A reinforcement learning framework built from scratch."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
